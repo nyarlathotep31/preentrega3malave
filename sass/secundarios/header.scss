@@ -1,0 +1,35 @@
+/*estilos header*/
+header{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    margin-left: 8.5rem;
+    nav{
+        ul{
+            display: flex;
+            padding: 2rem;
+            list-style: none;
+            gap: 11rem;
+            margin-bottom: 5rem;
+            font-size: larger;
+            text-decoration: none;
+            font-family: sans-serif;
+    
+            li{
+                font-weight: bold;
+                &:hover{
+                    background-color:#DCFFCC;
+                    transform: scale(1.1);
+                    box-shadow: 1px 1px 3px #E7F6F2;
+                    padding: 5px;
+                    border-radius: 10px;
+                    transition: 1s;
+                    text-shadow: 2px 2px 2px #E7F6F2;
+                }
+            }
+        }
+    }
+}
