@@ -1,6 +1,33 @@
-footer{
-    text-align: center;
-    margin-top: 3rem;
-    background-color: #DCFFCC;
-    padding: 3rem;
-}
+  .footer-content {
+        max-width: 100%;
+        margin: auto;
+    }
+    .footer-content-about {
+        width: 100%;
+        max-width: 60rem;
+        margin: 0 auto 5.4rem;
+    }
+    .footer-content-divider {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-content .navlist-footer {
+        position: absolute;
+        margin-left: -10rem;
+        margin-top: -5rem;
+    }
+    .footer-content .logo-footer img {
+        width: 25%;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: -59rem;
+    }
+    .footer-content p {
+        margin-top: -3rem;
+        align-items: center;
+        justify-content: center;
+        font-weight: 100;
+        font-size: 1rem;
+    }
+
+    

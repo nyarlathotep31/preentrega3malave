@@ -1,35 +1,40 @@
-/*estilos header*/
+/*Estilos de Header*/
 header{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: block;
-    display: flex;
-    align-items: center;
-    margin-top: 3rem;
-    margin-bottom: 10rem;
-    margin-left: 8.5rem;
-    nav{
-        ul{
-            display: flex;
-            padding: 2rem;
-            list-style: none;
-            gap: 11rem;
-            margin-bottom: 5rem;
-            font-size: larger;
-            text-decoration: none;
-            font-family: sans-serif;
-    
-            li{
-                font-weight: bold;
-                &:hover{
-                    background-color:#DCFFCC;
-                    transform: scale(1.1);
-                    box-shadow: 1px 1px 3px #E7F6F2;
-                    padding: 5px;
-                    border-radius: 10px;
-                    transition: 1s;
-                    text-shadow: 2px 2px 2px #E7F6F2;
-                }
-            }
-        }
+    .container{
+        padding: 3rem;
+    }
+    .nav{
+        height: 7.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-list{
+        list-style: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100vh;
+        background-color: #252525;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        z-index: 1250;
+        transform: translateX(-100%);
+        transition: transform .5s;
+    }
+    .nav-link{
+        display: block;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        letter-spacing: 2px;
+        margin-right: -2px;
+        transition: color 1s;
+    }
+    .nav-link:hover{
+        color: var(--secondary-font-color);
     }
 }

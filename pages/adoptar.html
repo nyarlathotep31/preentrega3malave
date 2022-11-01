@@ -5,87 +5,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-
-    <title>Adopta a tu peludo</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Adopta un peludito</title>
 </head>
 
 <body>
-
+    <!--Header inicio-->
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li><a href="../pages/adoptar.html">Adoptar</a>
-                <li>
-                    <a href="../pages/servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="../pages/alerta.html">Alerta Guau</a>
-                </li>
-                <li>
-                    <a href="../pages/apadrina.html">Apadrina</a>
-                </li>
-            </ul>
-        </nav>
-
-
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/Adoptar.html" class="nav-link ">Adopta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/apadrina.html" class="nav-link ">Apadrina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/alerta.html" class="nav-link ">Alerta Guau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../pages/servicios.html" class="nav-link">Servicios</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
-        <h1>Adopta un Peludito</h1>
-        <h4>¿Buscas adoptar y dar hogar a un animal rescatado? Todos ellos eran animales abandonados en las calles que
-            fueron rescatados y rehabilitados, recibiendo atención para mejorar su salud física y emocional.
+    <!--Header final-->
 
-            Todos están listos para encontrar a una nueva familia que los quiera y los cuide.</h4>
+    <!--Perritos en Adopción-->
 
-        <div class="adopcion">
-            <img src="../img/perrito2.png" alt="">
-            <img src="../img/perrito3.png" alt="">
-            <img src="../img/perrito4.png" alt="">
-            <img src="../img/perrito5.png" alt="">
-        </div>
-<div class="adopcion-t">
-<h2>Teo</h2>
-<h2>Coco</h2>
-<h2>Nala</h2>
-<h2>Lucas</h2>
-</div>
+    <section class="discover-our-products" id="price">
+        <div class="container">
+            <div class="brand-description animate-right">
+                <div class="global-headline">
 
-        <div>
-            <form>
-                <fieldset>
-                    <legend>
-                        Solicitud de Adopción
-                    </legend>
-                    <div>
-                        <label for="nombre" class="nombre">Nombre y Apellido</label>
-                        <input type="text" id="nombre" placeholder="tu nombre aquí">
+                    <h1 class="perritos-titulo">
+                        Perritos en Adopción</h1>
+
+                    <p>Todos ellos eran animales abandonados en las calles que fueron rescatados y rehabilitados,
+                        recibiendo atención para mejorar su salud física y emocional. Todos están listos para encontrar
+                        a una nueva familia que los quiera y los cuide.</p>
+
+                </div>
+                <div class="about-info">
+                    <div class="box">
+                        <div class="inner">
+                            <div class="img-group">
+                                <div class="price-tag animate-left">
+                                    AQUILES
+                                    <img src="../images/mewito1.png" alt="">
+                                    <div class="text">
+                                        <h3>Te cuento sobre Aquiles</h3>
+                                        <p>Macho mestizo súper amoroso de 2 años de edad.Se lleva muy bien con otros
+                                            perritos así que puede pertenecer a manadas. Antes que lo rescataramos
+                                            sufrió un accidente y una de sus patitas traseras presenta dificultades.Se
+                                            entrega con todas sus vacunas y esterilizado.</p>
+                                        <a href="" class="btn">adóptame</a>
+                                    </div>
+                                </div>
+                                <div class="price-tag animate-right">
+                                    NALA
+                                    <img src="../images/mewito2.png" alt="">
+                                    <div class="text">
+                                        <h3>Te cuento sobre Nala</h3>
+                                        <p>Mestiza de 8 meses. Fue encontrada junto a sus hermanos y su mamá en el río
+                                            Mapocho y atendida hasta su recuperación y adopción. Es una perrita con
+                                            mucha energía que requiere mucha paciencia y amor. Se sugiere sea hija única
+                                            ya que requiere dedicación.</p>
+                                        <a href="#contact" class="btn">adóptame</a>
+                                    </div>
+                                </div>
+                                <div class="price-tag animate-left">
+                                    FITO
+                                    <img src="../images/mewito9.png" alt="">
+                                    <div class="text">
+                                        <h3>Te cuento sobre Fito</h3>
+                                        <p>Fito es un macho mestizo de 3 años de edad. Ha sido abandonado 2 veces por
+                                            familias anteriores, le ha costado mucho encontrar familia. Es muy amoroso y
+                                            juguetón. Está esterilizado y sabe vivir en departamento. Se lleva bien con
+                                            gatos y perros.</p>
+
+                                        <a href="#contact" class="btn">adóptame</a>
+                                    </div>
+                                </div>
+                                <div class="price-tag animate-right" class>
+                                    LEONIDAS
+                                    <img src="../images/mewito8.png" alt="">
+                                    <div class="text">
+                                        <h3>Te cuento sobre Leonidas</h3>
+                                        <p>Macho mestizo, esterilizado de 5 años de edad.Sus papas humanos fallecieron
+                                            hace un tiempo, eran abuelitos y desde entonces Leonidas ha estado en
+                                            nuestro refugio recibiendo todos los cuidados.Está en busca de amor y un
+                                            techo.</p>
+
+                                        <a href="#contact" class="btn">adóptame</a>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <label for="correo" class="correo">Correo Electrónico </label>
-                        <input type="email" id="correo" placeholder="email">
-                    </div>
-                    <div>
-                        <label for="telefono" class="telf">Número Telefónico</label>
-                        <input type="number" id="telefono" placeholder="+56">
-                    </div>
-                    <div>
-                        <input type="submit" class="enviar">
-                        <input type="reset" class="reset">
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-    </main>
 
 
+                </div>
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>
+                            Solicitud de Adopción
+                        </legend>
+                        <div>
+                            <label for="nombre" class="btn">Nombre y Apellido</label>
+                            <input type="text" id="nombre" placeholder="tu nombre aquí" class="input">
+                        </div>
+                        <div>
+                            <label for="correo" class="btn">Correo Electrónico </label>
+                            <input type="email" id="correo" placeholder="email">
+                        </div>
+                        <div>
+                            <label for="telefono" class="btn">Número Telefónico</label>
+                            <input type="number" id="telefono" placeholder="+56">
+                        </div>
+                        <div>
+                            <input type="submit" class="btn">
+                            <input type="reset" class="btn">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+    </section>
     <footer>
+        <div class="container" id="contact">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-top">
+                    <h4>Gracias</h4>
 
-        <h5> Desde 2015 comprometidos por el bienestar emocional y físico de animales vulnerados.
-            Contáctanos: +56000000 - +560000000 - losamigosdecain@gmail.com</h5>
+
+                    <div class="asterisk"><i class="fas fa-asterisk"></i> </div>
+                    <div class="footer-content-divider animate-bottom">
+                        <div class="newsletter-container">
+                            <h4>Diario de Patas</h4>
+                            <p>Suscríbete</p>
+                            <form action="" class="newsletter-form">
+                                <input type="text" class="newsletter-input" placeholder="Email...">
+                                <buttom class="newsletter-btn" type="submit">
+                                    <i class="fas fa-envelope"></i>
+                                </buttom>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="line-divider">
+                <p>Desde 2015 comprometidos por el bienestar emocional y físico de animales vulnerados. Contáctanos:
+                    +56000000 - +560000000 - refugiodecain@gmail.com</p>
+            </div>
     </footer>
-</body>
+    <script src="js/main.js"></script>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</body>
 </html>
